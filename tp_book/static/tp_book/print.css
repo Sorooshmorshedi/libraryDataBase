@@ -1,0 +1,39 @@
+body{ margin :0;
+	color : #000;
+	background-color : #fff;
+}
+
+table.print {
+		width : 200px ; 
+		height : 260px;
+		position  :center ;
+		
+}
+
+		}
+
+header, footer, aside, nav, form, iframe, .mebu, .hero, .adslot { display : none;}
+a, h1 , h2, h3 , h4 ,p { display : none ; }
+
+@page {
+	margin-top : 2cm;
+	margin-left : 5cm;
+	
+	}
+	
+table, th , td {
+    text-align : center ;
+	border : 1px solid ;
+	border-collapse : collapse ;
+	padding : 5px ;
+	}
+table th { 
+	color : gray;
+}
+
+
+
+		
+
+
+

@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+	<head>
+		<meta charset= "utf-8">
+		<title> Books </title>
+		<link rel = "stylesheet" type ="text/css" href="{% static 'tp_book/style.css' %}">
+	</head>
+	<body>
+		<h2> <a href="/"> back to home </a> </h2>
+		<h2> <a href="/book-list/"> get list of books </a> </h2>
+		<p class ="mydiv"> ___ + {{cnt}} books avalibale ___ </p>
+		{% for book in books %}
+		<div>
+			{% if book.image %}
+			<a href="/{{book.slug}}">
+				<img src="{{book.image.url}}" width="200px" height="240px"  alt='book-cover'>
+			</a>
+			{% endif %}
+			<h2>Book Name : </h2>
+			<h1>
+				<a href="/{{book.slug}}">{{book.store_name}}</a>
+			</h1>
+			<h2> Books athor : </h2>
+			<h3>{{book.name}}</h3>
+			<p>des : {{book.short_description}}</p>
+			<h4>published at :</h4>
+			<p>{{book.created_at}}</p>
+		</div>
+		{% endfor %}
+	</body>
+</html>
+	

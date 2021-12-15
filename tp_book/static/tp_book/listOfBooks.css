@@ -1,0 +1,32 @@
+BODY {
+
+	background-color : #B19CD9;
+	text-align : center ;
+	margin : 30px ; 
+	
+}
+
+table {
+		margin-left : auto;
+		margin-right : auto;
+	}
+
+
+
+table, th , td {
+    text-align : center ;
+	border : 3px solid black;
+	border-collapse : collapse ;
+	padding : 10px ;
+	}
+
+
+table tr :nth-child(even) {background-color : #d9ccff;}
+table tr :nth-child(odd) {background-color : #ffccdd;}
+
+
+table th { 
+	color : purple ;
+
+}
+

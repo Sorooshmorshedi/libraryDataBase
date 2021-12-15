@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+	<head>
+		<meta APIs </title>
+		<link rel = "stylesheet" type ="text/css" href="{% static 'tp_book/api.css' %}">
+	</head>
+	<body>
+		<div><p>Book Library </p><h1>** APIs **</h1><p>by Soroosh Morshedi</p>
+			<p>
+				<a href="/"> Home </a>
+			  | <a href="login/"> Log in </a>
+			  | <a href="sign/"> Sign up </a>
+			  | <a href="admin/"> Admin </a>
+			</p>
+		</div>
+		<div class='mydiv'>
+			<p> API to accses to all books in library </p>
+			<h3 class = 'ap'> <a href="v1/get-all-data/"> >> get all book api </a> </h3>
+			<p> API to accses to all fav books in library </p>			
+			<h3 class = 'ap'> <a href="v1/get-fav-data/"> >> get fav book api </a> </h3>
+			<p> API to add a book as a model to library </p>	
+			<h3 class = 'ap'> <a href="v1/post-model/"> >> post book model in lib api </a> </h3>	
+			<p> API to update a book with add id of book to path</p>
+			<h3 class = 'ap'> <a href="v1/update-fav-data/<int:pk>/"> >> update book api with add id</a> </h3>		
+			<p> API to add datas of a book  to library </p>	
+			<h3 class = 'ap'> <a href="v1/post-data/"> >> post book data in ib api </a> </h3>		
+			<p> API to search in library  (add '''/?id=(search id)''' to the path)</p>
+			<h3 class = 'ap'> <a href="v1/search/"> >> search books api </a> </h3>
+			
+		</div>	
+	</body>
+</html>
+

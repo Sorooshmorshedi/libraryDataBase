@@ -1,0 +1,66 @@
+BODY {
+	background-color : #B19CD9 ;
+	background-image : url(/media/store_image/asd.jpg) ;
+	background-repeat : no-repeat ;
+	
+	
+}
+
+div { 
+	border-radius : 15px ;
+	border : 5px solid #d580ff;
+	background : #eeccff;
+	padding : 5px 20px 20px 20px ;
+	margin-top : 5px ;
+	margin-left : 750px;
+	margin-right : 10px ;
+	margin-bottom : 10px ;
+}
+
+.ap {
+	text-align : center;
+	}
+
+.mydiv {
+	border-radius : 15px ;
+	border : 5px solid #d580ff;
+	background : #eeccff;
+	padding : 5px 20px 20px 20px ;
+	margin-top : 5px ;
+	margin-left : 750px;
+	margin-right : 10px ;
+	margin-bottom : 10px ;
+}
+
+h1 { font-family : 'Arial';
+		color : purple ;
+		text-align : center ;
+		font-style : bold;
+}
+
+
+
+h2 { color : #cc66ff;
+	font-family :'Arial';
+}
+a { color :#00ace6 ;
+	text-decoration:none;
+	margin-left:20px;
+	margin-right:20px;
+
+}
+h3{ color : gray ;
+	margin-top : 10px;
+	
+
+}
+
+h4 { color : #cc66ff;
+	
+	
+}
+
+p { font-family :font-family :'CourierNew' , monospace  ;
+	color : #330033;
+	text-align : center ;
+}

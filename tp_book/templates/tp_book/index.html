@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+	<head>
+		<meta Book-lib </title>
+		<link rel = "stylesheet" type ="text/css" href="{% static 'tp_book/ind.css' %}">
+	</head>
+	<body>
+		<div>
+			<p>WellCome to </p><h1>** BOOK LIBRARY **</h1><p>by Soroosh Morshedi</p>
+			<p> <a href="login/"> Log in </a>|<a href="sign/"> Sign up </a>|<a href="admin/"> Admin </a> </p>
+		</div>
+		<div class='mydiv'>
+			<h3> + {{cnt}} Book avalibale </h3> 
+			<h2> <a href="books/"> >>> Books library </a> </h2>
+			<h2> <a href="book-list/"> >>> Books list </a> </h2>
+			<h3> + APIs </h3>
+		    <h2> <a href="api/"> >>> Go to APIs list </a> </h2>
+		</div>
+	</body>
+</html>
